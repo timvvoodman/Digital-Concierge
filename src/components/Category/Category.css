@@ -1,0 +1,22 @@
+.category {
+  margin: 20px;
+}
+
+.category-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.category-item:hover {
+  transform: scale(0.97);
+}
+
+.category-item > h2 {
+  color: white;
+  text-shadow: 2px 2px black;
+}
