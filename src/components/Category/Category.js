@@ -1,7 +1,7 @@
 import React from 'react'
 import './Category.css'
 
-function Category({ title, color, bg }) {
+function Category({ title, color, bg, component, to }) {
   //inline styles for category tiles
   const background = {
     background: `url(${bg})`,
