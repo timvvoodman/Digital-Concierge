@@ -2,9 +2,8 @@ import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import Home from './components/Home/Home'
 import Food from './components/Food/Food'
-import Entertainment from './components/Entertainment/Entertainment'
+import Activities from './components/Activities/Activities'
 import Beach from './components/Beach/Beach'
-import Kids from './components/Kids/Kids'
 
 function App() {
   return (
@@ -17,11 +16,8 @@ function App() {
           <Route path="/food">
             <Food />
           </Route>
-          <Route path="/entertainment">
-            <Entertainment />
-          </Route>
-          <Route path="/kids">
-            <Kids />
+          <Route path="/activities">
+            <Activities />
           </Route>
           <Route path="/">
             <Home />

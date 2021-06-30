@@ -1,0 +1,30 @@
+nav {
+  margin: 10px;
+  color: ;
+}
+
+.host-icon {
+  font-size: 16px;
+  margin-right: 5px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header > h1 {
+  margin-top: 15px;
+  font-size: x-large;
+}
+
+.header > p {
+  margin: 10px 20px;
+}
+
+.category-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

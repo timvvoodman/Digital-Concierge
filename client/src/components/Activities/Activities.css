@@ -1,0 +1,10 @@
+.activities-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.activities-container > a {
+  text-decoration: none;
+  color: black;
+}
