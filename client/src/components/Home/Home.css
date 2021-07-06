@@ -1,11 +1,17 @@
-nav {
+.host-link {
   margin: 10px;
-  color: ;
+  color: #fa314a;
+  text-decoration: none;
 }
 
 .host-icon {
   font-size: 16px;
   margin-right: 5px;
+}
+
+nav:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 .header {

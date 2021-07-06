@@ -4,6 +4,8 @@ import Home from './components/Home/Home'
 import Food from './components/Food/Food'
 import Activities from './components/Activities/Activities'
 import Beach from './components/Beach/Beach'
+import HostLogin from './components/HostLogin/HostLogin'
+import Register from './components/Register/Register'
 
 function App() {
   return (
@@ -18,6 +20,12 @@ function App() {
           </Route>
           <Route path="/activities">
             <Activities />
+          </Route>
+          <Route path="/login">
+            <HostLogin />
+          </Route>
+          <Route path="/register">
+            <Register />
           </Route>
           <Route path="/">
             <Home />

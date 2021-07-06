@@ -8,10 +8,12 @@ import Category from '../Category/Category'
 function Home() {
   return (
     <div className="home">
-      <nav>
+      <Link to="/login" className="host-link">
+        {' '}
         <FontAwesomeIcon icon={faUser} className="host-icon" />
         Host Login
-      </nav>
+      </Link>
+
       <div className="header">
         <h1>Thank you for visiting!</h1>
 
