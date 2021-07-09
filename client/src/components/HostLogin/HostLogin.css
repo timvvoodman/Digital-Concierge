@@ -1,9 +1,11 @@
 .login-container {
   margin: 50px auto;
-
-  width: 300px;
+  width: 400px;
   padding: 15px;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .login-container > h1 {
@@ -15,14 +17,18 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  text-align: center;
   font-family: inherit;
   color: lightgray;
+  width: 350px;
+}
+
+.login-form > div {
   width: 100%;
 }
 
-.login-form > form > input {
-  margin: 10px 0;
+.login-form-input {
+  margin: 10px 10px;
   height: 30px;
   width: 90%;
   border-radius: 5px;
@@ -31,7 +37,7 @@
   font-size: 16px;
 }
 
-.login-form > form > input:focus {
+.login-form-input:focus {
   outline-color: #fa314a;
 }
 
@@ -51,6 +57,7 @@
 
 .create-account-link {
   display: flex;
+  justify-content: center;
   margin-top: 10px;
   font-size: 14px;
   color: gray;
